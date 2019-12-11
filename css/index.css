@@ -1,0 +1,264 @@
+.grid {
+	height: 482px;
+	
+}
+.grid-col1{
+	width: 190px;
+	height: 100%;
+	background-color: #6e6568;
+	float: left;
+	position: relative;
+}
+.grid-col1 ul {
+	margin: 20px 0;
+}
+.grid-col1 ul li {
+	padding-left: 12px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 28px;
+}
+.grid-col1 ul li:hover {
+	background-color: #ccc;
+}
+.grid-col1 ul a{
+	color: #fff;
+	font-size: 14px;
+	padding: 0 3px;
+	
+}
+.grid-col2{
+	width: 790px;
+	height: 482px;
+	float: left;
+	margin-left: 10px;
+
+}
+.grid-col3{
+	width: 190px;
+	height: 100%;
+	float: right;
+}
+.grid-col2 {
+	position: relative;
+}
+.grid-col2-b img:first-child {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.grid-col2-b img:last-child {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.grid-col2-t {
+	overflow: hidden;
+	width: 790px;
+	height: 340px;
+	position: relative;
+}
+.grid-col2-t .focus {
+	width: 900%;
+	position: absolute;
+}
+
+.grid-col2-t ul li {
+	float: left;
+}
+.grid-col2-t .l{
+	position: absolute;
+	width: 40px;
+	background: rgba(0,0,0,.3);
+	color: #fff;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	font-family: arial;
+	font-weight: normal;
+	display: none;
+}
+.grid-col2-t .r
+{
+	position: absolute;
+	width: 40px;
+	background: rgba(0,0,0,.3);
+	color: #fff;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	font-family: arial;
+	font-weight: normal;
+	display: none;
+}
+.circle {
+	height: 22px;
+	background:rgba(255,255,255,0.6);
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 15px;
+}
+.circle ul {
+padding-left: 2px;
+}
+.circle li a {
+	margin: 5px;
+	float: left;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	background-color: #fff ;
+}
+.circle li a:hover{ 
+	background-color: #F10215;
+}
+	
+.circle .current {
+	background-color: #F10215;
+}
+.grid-col3 .user {
+	height: 85px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+}
+.grid-col3 .user-t {
+	padding-left: 60px;
+	height: 55px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #666666;
+	width: 94px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+}
+.grid-col3 .user-t a {
+	padding-right: 4px;
+}
+
+
+.user-info {
+	height: 50px;
+	width: 50px;
+	position:absolute;
+	top: 0;
+	left: 0;
+	background:url(../img/sprite_userinfo@1x.png) no-repeat -70px 0;
+}
+.user-info img {
+	width: 40px;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.user-b .b-l a{
+	margin-right: 10px;
+}
+.user-b .b-l a, .user-b .b-r a{
+	color: #F10215;
+	float: left;
+	font-size: 12px;
+	border:2px solid #F10215;
+	width: 70px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	
+}
+.user-b .b-l:hover a, .user-b .b-r:hover a{
+	color: #fff!important;
+	background-color: #F10215;
+}
+.grid-col3 .news {
+	height: 157px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	padding: 9px 13px;
+	box-sizing: border-box;
+}
+.news-t {
+	height: 19px;
+	border-bottom: 1px solid #ccc;
+	
+}
+.news-t a{
+	float: left;
+	color: #333;
+	line-height: 17px;
+}
+
+.news-t a:first-child {
+	width: 36px;
+	border-right:1px solid #ccc;
+}
+.news-t a:nth-child(2) {
+	padding-left: 16px;
+}
+.news-t a:last-child {
+	float: right;
+}
+.news-b {
+	margin-top: 19px;
+}
+.news-b a{
+	display: block;
+	line-height: 24px;
+}
+.grid-col3 .logo-2 {
+	height: 209px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.logo-2 ul{
+	width: 194px;
+}
+.logo-2 li {
+	width: 47px;
+	height: 69px;
+	float: left;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	
+}
+.logo-2 li a {
+	display: block;
+	text-align: center;
+	padding-top: 15px;
+}
+.logo-2 li i {
+	margin: 0 auto;
+	display: block;
+	width: 21px;
+	height: 23px;
+	margin-bottom: 5px;
+	background-position: -3px -2px;
+	background: url(../img/sprite_fs@1x.png) no-repeat;
+	}
+.ad-l {
+	position: absolute;
+	top: 0;
+	right: 190px;
+}
+.ad-r {
+	width: 0px;
+	height: 480px;
+	position: absolute;
+	top: 0;
+	left: 250px;
+	z-index: 2;
+	transition: all 0.5s;
+	background:url(../img/ad-r.jpg);
+}
+.ad-l:hover .ad-r{
+	width: 990px;
+}
